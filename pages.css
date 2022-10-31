@@ -1,0 +1,211 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    scrollbar-width: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scrollbar-width: none;
+}
+body {
+    background-color: #bcbfc4;
+}
+.wrapper {
+    width: 95%;
+    margin: auto;
+}
+.tittle{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+}
+.nav-holder{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 5vh;
+}
+.abutts{
+    width: 10%;
+}
+.butts {
+    width: 100%;
+    height: 100%;
+    color: #512232;
+    background-color: #bcbfc4;
+    cursor: pointer;
+    font-size: larger;
+    text-align: center;
+}
+.sb {
+    transition: ease-in-out 500ms;
+}
+.sb:hover {
+    box-shadow: inset 300px 0 0 0 #5122329a;
+}
+.types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #3a1d26b9;
+    border-radius: 10px;
+    padding: 5px;
+}
+.t1 {
+    color: aqua;
+}
+.t2 {
+    color: gray;
+}
+.t3 {
+    color: greenyellow;
+}
+.t4 {
+    color: yellow;
+}
+.t5 {
+    color: orangered;
+}
+.gaming:hover {
+    box-shadow: inset 300px 0 0 0 aqua;
+    transform: scale(1.1);
+}
+.lite:hover {
+    box-shadow: inset 300px 0 0 0 gray;
+    transform: scale(1.1);
+}
+.begginer:hover {
+    box-shadow: inset 300px 0 0 0 greenyellow;
+    transform: scale(1.1);
+}
+.intermediate:hover {
+    box-shadow: inset 300px 0 0 0 yellow;
+    transform: scale(1.1);
+}
+.power-user:hover {
+    box-shadow: inset 300px 0 0 0 orangered;
+    transform: scale(1.1);
+}
+.iso-container{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    width: calc(100% / 6);
+    margin: 10px;
+    background-color: rgba(245, 245, 245, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: ease 500ms;
+}
+.card img {
+    border-radius: 10px;
+}
+.inner-card {
+    padding: 10px;
+    border: 0px solid black;
+}
+#search {
+    outline: none;
+}
+.card img {
+    width: 100%;
+}
+/* ============================================================================= */
+.modalbg {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+.blur {
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-image: linear-gradient(to bottom right, rgba(245, 245, 245, 0.5), #2f2f2f83);
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+}
+.modal-container {
+    width: 50vw;
+    height: 75vh;
+    position: fixed;
+    left: 25%;
+    top: 10%;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-radius: 20px;
+    box-shadow: 20px 20px rgba(128, 128, 128, 0.4);
+    z-index: 2;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.openmode {
+    display: block;   
+}
+.modal {
+    padding: 10px;
+}
+.top {
+    text-align: center;
+    height: 50%;
+}
+.DLogo {
+    width: 30%;
+}
+.sample {
+    width: 80%;
+}
+.line {
+    box-shadow: 2px 2px black;
+    width: 80%;
+}
+.middle {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+}
+.center {
+    width: 45%;
+}
+table {
+    border-collapse: collapse;
+}
+.middle div p {
+    font-size: larger;
+}
+tr:nth-child(even) {
+      background-color: #51223244;	
+}
+td {
+    padding: 1px;
+    border: 1px solid #5122322c;
+}
+.botom {
+    text-align: center;	
+    height: 20%;
+}
+.ofweblink {
+    color: #512232;
+}
+.botom div{
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    padding: 10px;
+    border: 0px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.downbutt {
+    background-color: aqua;
+}
+.closebutt {
+    background-color: orange;
+}

@@ -1,0 +1,84 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #bcbfc4;
+}
+.wrapper {
+    width: 95vw;
+    margin: auto;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    font-size: 300%;
+}
+nav {
+    width: 60%;
+    margin: auto;
+}
+.home-butt {
+    width: 20%;
+    font-size: larger;
+    background-color: #bcbfc4;
+}
+.content {
+    width: 75%;
+    margin: auto;
+}
+.top {
+    display: flex;
+}
+.box1 {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+} 
+.box1 img {
+    width: 80%;
+}
+.box2 {
+    width: 65%;
+    margin: auto;
+}
+.par {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.par a {
+    text-decoration: none;
+    color: #3a1d26;
+}
+.par p {
+    line-height: 2rem;
+}
+.par p b {
+    font-size: 1.5rem;
+}
+.par img {
+    width: 100%;
+}
+.goup {
+    position: fixed;
+    left: 85vw;
+    bottom: 10vh;
+}
+.goup a button {
+    background-color: whitesmoke;
+    color: #3a1d26;
+    padding: 10px;
+    border-radius: 10px;
+    width: 8vw;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 500ms;
+}
+.goup:hover button {
+    transform: scale(1.1);
+    background-color: #3a1d26;
+    color: white;
+}

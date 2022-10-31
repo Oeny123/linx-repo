@@ -1,0 +1,187 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    scrollbar-width: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #bcbfc4;
+    overflow: hidden;
+}
+.wrapper {
+    width: 95%;
+    margin: auto;
+}
+.container {
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    width: 90%;
+}
+.container > .cons {
+    width: 45%;
+    margin: auto;
+}
+.cons p {
+    text-align: center;
+    font-size: larger;
+    color: #512232;
+}
+.con1 {
+    text-align: center;
+}
+.sidebut {
+    text-align: center;
+    height: 7vh;
+}
+.butcon .sidebut button{
+    width: 40%;
+    height: 70%;
+    color: #512232;
+    background-color: #bcbfc4;
+    cursor: pointer;
+}
+/* =================================================================================================== */
+.smodalbg {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+.smodal-container {
+    width: 50vw;
+    position: fixed;
+    left: 25%;
+    top: 40%;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-radius: 20px;
+    box-shadow: 20px 20px rgba(128, 128, 128, 0.4);
+    z-index: 2;
+    overflow: auto;
+    scrollbar-width: none;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 500ms;
+}
+.smodal-container:hover {
+    transform: scale(1.1);
+    background-color: #3a1d26b9;
+    
+}
+.smodal-container:hover #search {
+    color: white;
+}
+.smodal {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#search {
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+    text-align: center;
+    border: 0px ridge black;
+    background-color: rgba(245, 245, 245, 0);
+    font-size: larger;
+    user-select: none;
+    outline: none;
+}
+.opens {
+    display: block;
+}
+/* =================================================================================================== */
+.modalbg {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+.blur {
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-image: linear-gradient(to bottom right, rgba(245, 245, 245, 0.5), #2f2f2f83);
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+}
+.modal-container {
+    width: 50vw;
+    height: 75vh;
+    position: fixed;
+    left: 25%;
+    top: 10%;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-radius: 20px;
+    box-shadow: 20px 20px rgba(128, 128, 128, 0.4);
+    z-index: 2;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.openmode {
+    display: block;   
+}
+.modal {
+    padding: 10px;
+}
+.top {
+    text-align: center;
+    height: 50%;
+}
+.DLogo {
+    width: 30%;
+}
+.sample {
+    width: 80%;
+}
+.line {
+    box-shadow: 2px 2px black;
+    width: 80%;
+}
+.middle {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+}
+.center {
+    width: 45%;
+}
+table {
+    border-collapse: collapse;
+}
+.middle div p {
+    font-size: larger;
+}
+tr:nth-child(even) {
+      background-color: #51223244;	
+}
+td {
+    padding: 1px;
+    border: 1px solid #5122322c;
+}
+.botom {
+    text-align: center;	
+    height: 20%;
+}
+.ofweblink {
+    color: #512232;
+}
+.botom div{
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    padding: 10px;
+    border: 0px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.downbutt {
+    background-color: aqua;
+}
+.closebutt {
+    background-color: orange;
+}
